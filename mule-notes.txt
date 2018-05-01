@@ -1,3 +1,3 @@
-•	CLOUDHUB: It is an IPaas i.e. Integration Platform as a service.
-•	Anypoint Fabric: It is the cloud hub’s backend infrastructure and services to automatically scale deployed Mule applications.
-•	If we want to access runtime details of mule servers, we can use JMX. Since mule is exposing JMX if we want logs to integrated with other third-party systems like Splunk we can integrate them using JMX.
+CLOUDHUB: It is an IPaas i.e. Integration Platform as a service.
+Anypoint Fabric: It is the cloud hub’s backend infrastructure and services to automatically scale deployed Mule applications.
+If we want to access runtime details of mule servers, we can use JMX. Since mule is exposing JMX if we want logs to integrated with other third-party systems like Splunk we can integrate them using JMX.
