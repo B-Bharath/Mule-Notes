@@ -1,3 +1,7 @@
 CLOUDHUB: It is an IPaas i.e. Integration Platform as a service.
 Anypoint Fabric: It is the cloud hub’s backend infrastructure and services to automatically scale deployed Mule applications.
 If we want to access runtime details of mule servers, we can use JMX. Since mule is exposing JMX if we want logs to integrated with other third-party systems like Splunk we can integrate them using JMX.
+Cloud hub will provide you a worker, it is nothing but one VM on which our mule instance is running.
+Old worker is working still the new one gets deployed, so there is 0 down time.
+Cluster: Having more than one server working together and understanding each other.
+VM can be used for cloud hub but be aware of creating of our own object store. So, in general for cloud hub we use JMS queues like rabbit, active MQ
