@@ -5,7 +5,3 @@ Cloud hub will provide you a worker, it is nothing but one VM on which our mule 
 Old worker is working still the new one gets deployed, so there is 0 down time.
 Cluster: Having more than one server working together and understanding each other.
 VM can be used for cloud hub but be aware of creating of our own object store. So, in general for cloud hub we use JMS queues like rabbit, active MQ
-Proxy: It monitors the traffic, it always looks at a specific target and gets their request and forward to a specific location.
-Policy: it is a mechanism for enforcing filters on traffic.
-API Manager monitors the applied policies and API Gateway is responsible for policy enforcement.
-
