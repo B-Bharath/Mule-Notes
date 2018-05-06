@@ -7,7 +7,9 @@ Cluster: Having more than one server working together and understanding each oth
 VM can be used for cloud hub but be aware of creating of our own object store. So, in general for cloud hub we use JMS queues like rabbit, active MQ
 Proxy: It monitors the traffic, it always looks at a specific target and gets their request and forward to a specific location.
 Policy: it is a mechanism for enforcing filters on traffic.
-API Manager monitors the applied policies and API Gateway is responsible for policy enforcement.
 API Gateway: It is a mule runtime responsible for managing proxies and governance. It is a part of mule runtime.
+API Manager monitors the applied policies and API Gateway is responsible for policy enforcement. 
 Client always access the proxy endpoint that is different from the implementation layer. Proxy checks the policies are met and then forward to implementation layer.
+The policies are always set in user interface through a restful call. The policies are communicated to proxy through Anypoint platform agent
+An API proxy can be automatically generated using API Manager.
 
