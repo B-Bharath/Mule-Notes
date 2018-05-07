@@ -12,4 +12,7 @@ API Manager monitors the applied policies and API Gateway is responsible for pol
 Client always access the proxy endpoint that is different from the implementation layer. Proxy checks the policies are met and then forward to implementation layer.
 The policies are always set in user interface through a restful call. The policies are communicated to proxy through Anypoint platform agent
 An API proxy can be automatically generated using API Manager.
+From mule3.8 api gateway runtime and mule runtime are combined into one.
+we can still call api implementation directly instead of calling api gateway, this can be overcome by using api gateway cluster inside a DMZ to run api proxy applications or by using Virtual Private Cloud (VPC).
+
 
