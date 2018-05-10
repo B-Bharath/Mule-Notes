@@ -20,6 +20,9 @@ Advantages of API Gateway:
 3. Separates API Management from API Implementation concerns.
 4. Determines which traffic is authorized to pass through the API to backend services.
 5. Logs all transactions, collects and tracks analytics data.
+Mule ESB Runtime: Where we deploy our applications. It can be on premise or on cloud. Once we have our application build using studio we can deploy them in ESB runtime.
+To manage the applications running in runtime there are 2 solutions 1. MMC, 2. Run time manager
+
 
 
 
