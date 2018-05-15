@@ -22,6 +22,8 @@ Advantages of API Gateway:
 5. Logs all transactions, collects and tracks analytics data.
 Mule ESB Runtime: Where we deploy our applications. It can be on premise or on cloud. Once we have our application build using studio we can deploy them in ESB runtime.
 To manage the applications running in runtime there are 2 solutions 1. MMC, 2. Run time manager
+When we start mule run time then mule agent with port no 7777 is configured. Mule agent exposes the run time properties of your mule run time like how much memory is occupied, number of threads running.
+To manage on cloud earlier we had cloud hub console and now it is renamed as run time manager. For managing applications on cloud, we use Run time manager.
 
 
 
