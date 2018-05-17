@@ -24,6 +24,8 @@ Mule ESB Runtime: Where we deploy our applications. It can be on premise or on c
 To manage the applications running in runtime there are 2 solutions 1. MMC, 2. Run time manager
 When we start mule run time then mule agent with port no 7777 is configured. Mule agent exposes the run time properties of your mule run time like how much memory is occupied, number of threads running.
 To manage on cloud earlier we had cloud hub console and now it is renamed as run time manager. For managing applications on cloud, we use Run time manager.
+Once you have the mule runtime either on premise or on cloud. Our mule run time has applications which has some orchestrated flows. We can expose orchestrated flows in application as REST API using API KIT router.
+Whenever we are exposing a REST API we may want to manage our API like we want to apply some policies, SLA’s as we want to configure some security to our REST API, there is a component in anypoint platform called API Manager which is cloud based, in this we describe our API using RAML file and this manager develop a proxy for our API.
 
 
 
