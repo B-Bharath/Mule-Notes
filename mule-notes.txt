@@ -8,7 +8,6 @@ Cluster: Having more than one server working together and understanding each oth
 VM can be used for cloud hub but be aware of creating of our own object store. So, in general for cloud hub we use JMS queues like rabbit, active MQ
 
 Proxy: It monitors the traffic, it always looks at a specific target and gets their request and forward to a specific location.
-
 Policy: it is a mechanism for enforcing filters on traffic.
 
 API Gateway: It is a mule runtime responsible for managing proxies and governance. It is a part of mule runtime.
