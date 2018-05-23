@@ -39,6 +39,11 @@ The client makes call to proxy url which is running inside the gateway and the p
 
 If you want to configure SLA’s policies we don’t need to write code, we want to configure SLA’s and policies on API Manager. The API Manager will push the policies to API Gateway and gateway will apply policies for client call. If everything is fine call will go to original API (mule runtime). If conditions are not satisfied, then proxy itself give the responses.
 
+Flow Processing Strategies: All Mule flows have an implicit processing strategy which Mule applies automatically: either synchronous or queued-asynchronous
+The Synchronous Flow Processing Strategy: Mule processes messages in a single thread.
+The Queued-Asynchronous Flow Processing Strategy: Mule uses a queue to decouple the receiver thread from the rest of the flow. This means that once the receiver places a message into a queue, it can immediately return and accept a new incoming message. Furthermore, each message waiting in the queue can be assigned a different thread from a pool of threads. A component called a Work Manager assigns pending messages to available threads, so they can be processed in parallel. Such parallel processing is ideal for situations where the receiver can, at peak times, accept messages significantly faster than the rest of the flow can process those messages.
+
+
 
 
 
