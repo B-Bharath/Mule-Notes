@@ -37,14 +37,19 @@ We can deploy this proxy in a separate runtime called as API Gateway, now the pr
 Whenever we are exposing REST API to our client we won’t expose the original url which is running inside our runtime, we expose proxy url to the clients.
 The client makes call to proxy url which is running inside the gateway and the proxy will call the original application (mule Runtime).
 
-If you want to configure SLA’s policies we don’t need to write code, we want to configure SLA’s and policies on API Manager. The API Manager will push the policies to API Gateway and gateway will apply policies for client call. If everything is fine call will go to original API (mule runtime). If conditions are not satisfied, then proxy itself give the responses.
+If you want to configure SLA’s policies we don’t need to write code, we want to configure SLA’s and policies on API Manager. 
+The API Manager will push the policies to API Gateway and gateway will apply policies for client call. If everything is fine call will go to original API (mule runtime). If conditions are not satisfied, then proxy itself give the responses.
 
 Flow Processing Strategies: All Mule flows have an implicit processing strategy which Mule applies automatically: either synchronous or queued-asynchronous
 The Synchronous Flow Processing Strategy: Mule processes messages in a single thread.
 The Queued-Asynchronous Flow Processing Strategy: Mule uses a queue to decouple the receiver thread from the rest of the flow. This means that once the receiver places a message into a queue, it can immediately return and accept a new incoming message. Furthermore, each message waiting in the queue can be assigned a different thread from a pool of threads. A component called a Work Manager assigns pending messages to available threads, so they can be processed in parallel. Such parallel processing is ideal for situations where the receiver can, at peak times, accept messages significantly faster than the rest of the flow can process those messages.
 However, the increased throughput facilitated by the asynchronous approach comes at the cost of transactional reliability. 
-You might want to specify a synchronous flow to achieve reliability. Remember that the synchronous strategy is ideally suited for flows where the flow’s inbound endpoint must be notified of all errors that occur during the processing of the message
+You might want to specify a synchronous flow to achieve reliability. Remember that the synchronous strategy is ideally suited for flows where the flow’s inbound endpoint must be notified of all errors that occur during the processing of the message.
+
 The specific type of queue implemented for the queued-asynchronous flow processing strategy is known as a SEDA queue.
+A flow with a queued-asynchronous processing strategy can execute on any node in a cluster. A flow with a synchronous processing strategy executes on the same node of the cluster until processing in the flow is complete.
+you can only fine-tune a queued-asynchronous strategy, you can fine-tune it to adjust how it behaves; you cannot do any fine-tuning for a synchronous flow.
+
 
 
 
