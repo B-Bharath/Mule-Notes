@@ -51,7 +51,10 @@ A flow with a queued-asynchronous processing strategy can execute on any node in
 you can only fine-tune a queued-asynchronous strategy, you can fine-tune it to adjust how it behaves; you cannot do any fine-tuning for a synchronous flow.
 You can fine-tune a queued-asynchronous processing strategy by: 1. Changing the number of threads available to the flow. 2. Limiting the number of messages that can be queued. 3.Specifying a queue store to persist data. You achieve this fine-tuning by specifying parameters for a global processing strategy.
 
-Webservice: It is a way for two applications to communicate over a network. These two applications may be any 2 different applications like one is developed by java and other may be by .net 
+Webservice: It is a way for two applications to communicate over a network. These two applications may be any 2 different applications like one is developed by java and other may be by .net.
+It uses Interoperable format to transfer the data between applications.
+In web service there will be two actors i.e. 1. provider: which application is giving services to other application. 2. Consumer: which application is taking data from other application.
+
 
 
 
