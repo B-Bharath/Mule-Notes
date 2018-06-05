@@ -54,7 +54,8 @@ You can fine-tune a queued-asynchronous processing strategy by: 1. Changing the 
 Webservice: It is a way for two applications to communicate over a network. These two applications may be any 2 different applications like one is developed by java and other may be by .net.
 It uses Interoperable format to transfer the data between applications.
 In web service there will be two actors i.e. 1. provider: which application is giving services to other application. 2. Consumer: which application is taking data from other application.
-
+webservice is a specification, they are not providing any API i.e. it is a set of rules and guidelines to communicate two applications. Java acts as both provider and consumer but all doesn’t act as like both ex: android and swift can consume the services but it cannot provide the services.
+Difference B/W web application and web services: for web application, client application must be a browser but in case of webservice client application is some other application. 
 
 
 
