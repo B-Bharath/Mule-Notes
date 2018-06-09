@@ -57,6 +57,10 @@ In web service there will be two actors i.e. 1. provider: which application is g
 webservice is a specification, they are not providing any API i.e. it is a set of rules and guidelines to communicate two applications. Java acts as both provider and consumer but all doesn’t act as like both ex: android and swift can consume the services but it cannot provide the services.
 Difference B/W web application and web services: for web application, client application must be a browser but in case of webservice client application is some other application. 
 
+Web services has suggested some components to use between two applications to share information they are 1. WSDL, 2. UDDI (Universal Description Discovery and Integration), 3. SKELETON, 4. STUB or Proxies, 5. SOAP protocol, 6. HTTP Protocol.
+UDDI is not mandatory to use in webservice registry but remaining 5 are mandatory.
+
+
 
 
 
