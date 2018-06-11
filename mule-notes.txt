@@ -59,7 +59,9 @@ Difference B/W web application and web services: for web application, client app
 
 Web services has suggested some components to use between two applications to share information they are 1. WSDL, 2. UDDI (Universal Description Discovery and Integration), 3. SKELETON, 4. STUB or Proxies, 5. SOAP protocol, 6. HTTP Protocol.
 UDDI is not mandatory to use in webservice registry but remaining 5 are mandatory.
-
+Webservice contains the information required to invoke from the client application in the form of XML, it also contains end point URL.
+Service provider will store the WSDL file in UDDI Registry software with some unique name and that unique name is shared to the client.
+using this WSDL file client generates some classes called STUBS or Proxies using some STUB generation tool. If client application is C++, then STUB is a C++ class and if it is a php then stub is php
 
 
 
