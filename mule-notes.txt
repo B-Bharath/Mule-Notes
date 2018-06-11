@@ -63,6 +63,10 @@ Webservice contains the information required to invoke from the client applicati
 Service provider will store the WSDL file in UDDI Registry software with some unique name and that unique name is shared to the client.
 using this WSDL file client generates some classes called STUBS or Proxies using some STUB generation tool. If client application is C++, then STUB is a C++ class and if it is a php then stub is php
 
+After creating stub client will create stub object in client application and on top of stub he will invoke that method by passing the required values, then this method call is going back to STUB. Then the stub will store the details in the form of XML document known as SOAP Request. It contains name of method, parameter values and parameter types.
+Stub uses some predefined tags to prepare the xml document and this predefined tag are called SOAP tags, so it is called SOAP request.
+Now this SOAP request needs to move from client location to Server location using HTTP protocol. Here the SOAP request contains name of the method, parameter values and parameter types.
+
 
 
 
