@@ -70,6 +70,9 @@ Now this SOAP request needs to move from client location to Server location usin
 The server will receive the request i.e. SOAP request, and this is handover to Skeleton which is present on server side.
 Skeleton will invoke the client requested method on the actual service class by passing the parameter values. Then skeleton will get the return value and this return value needs to send to client location.
 Skeleton will prepare one xml document known as SOAP response in this it will store the service return value.
+This SOAP response is transferred from server location to client location by HTTP protocol.
+Now the soap response is available at the client location which contains the return value. This soap response will be read by stub and stub will get the return value and the return value is handover to client
+
 
 
 
