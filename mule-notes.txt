@@ -73,7 +73,12 @@ Skeleton will prepare one xml document known as SOAP response in this it will st
 This SOAP response is transferred from server location to client location by HTTP protocol.
 Now the soap response is available at the client location which contains the return value. This soap response will be read by stub and stub will get the return value and the return value is handover to client.
 
-WSDL: It is an xml file which contains service class details and service provider will prepare this WSDL file. To prepare this WSDL we need WSDL generation tool. Service provider after developing service class he will use WSDL generation tool to prepare the WSDL file. The inputs to WSDL generation tools are service class and endpoint URL then it will generate WSDL file. After preparing the WSDL file we need to handover it to Client
+WSDL: It is an xml file which contains service class details and service provider will prepare this WSDL file. To prepare this WSDL we need WSDL generation tool. Service provider after developing service class he will use WSDL generation tool to prepare the WSDL file. 
+The inputs to WSDL generation tools are service class and endpoint URL then it will generate WSDL file. After preparing the WSDL file we need to handover it to Client.
+The role of WSDL file in webservice architecture is to understand service details by the client. If already client knows about your service class maybe WSDL file is not required.
+UDDI is not mandatory to share WSDL file. The service provider can share the WSDL file by email attachment to client.
+If you want your WSDL file to be shared to 1000 of clients, then we need UDDI instead of email attachment.
+
 
 
 
