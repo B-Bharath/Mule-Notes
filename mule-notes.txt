@@ -82,6 +82,10 @@ If you want your WSDL file to be shared to 1000 of clients, then we need UDDI in
 SOAP Purpose: It is a protocol it contains set of tags, which are used by STUB to prepare the SOAP request and used by skeleton to prepare the SOAP response. 
 SOAP is a messaging protocol here i.e. we are preparing messages here on client side and server side.
 
+HTTP Protocol: It is a transportation protocol here because it is moving soap request from client location to server location and soap response from server location to client location.
+
+Skeleton: It is a predefined class. It will get the method details from soap request and it will invokes that client requested method on that service class it will get the return value and that return value is stored in the soap response.
+
 
 
 

@@ -79,7 +79,10 @@ The role of WSDL file in webservice architecture is to understand service detail
 UDDI is not mandatory to share WSDL file. The service provider can share the WSDL file by email attachment to client.
 If you want your WSDL file to be shared to 1000 of clients, then we need UDDI instead of email attachment.
 
-SOAP Purpose: It is a protocol it contains set of tags, which are used by STUB to prepare the SOAP request and used by skeleton to prepare the SOAP response. SOAP is a messaging protocol here i.e. we are preparing messages here on client side and server side.
+SOAP Purpose: It is a protocol it contains set of tags, which are used by STUB to prepare the SOAP request and used by skeleton to prepare the SOAP response. 
+SOAP is a messaging protocol here i.e. we are preparing messages here on client side and server side.
+
+HTTP Protocol: It is a transportation protocol here because it is moving soap request from client location to server location and soap response from server location to client location.
 
 
 
