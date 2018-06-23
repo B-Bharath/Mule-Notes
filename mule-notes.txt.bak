@@ -84,6 +84,8 @@ SOAP is a messaging protocol here i.e. we are preparing messages here on client 
 
 HTTP Protocol: It is a transportation protocol here because it is moving soap request from client location to server location and soap response from server location to client location.
 
+Skeleton: It is a predefined class. It will get the method details from soap request and it will invokes that client requested method on that service class it will get the return value and that return value is stored in the soap response.
+
 
 
 
