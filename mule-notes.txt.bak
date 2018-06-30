@@ -86,7 +86,8 @@ HTTP Protocol: It is a transportation protocol here because it is moving soap re
 
 Skeleton: It is a predefined class. It will get the method details from soap request and it will invokes that client requested method on that service class it will get the return value and that return value is stored in the soap response.
 
-
+To develop the webservice we need mainly two components. 1. WSDL generation tool, 2. Skeleton class. 
+If you develop application using java then sun provides these 2 components, if we use C# Microsoft will provide you the 2 components.
 
 
 

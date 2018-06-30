@@ -89,6 +89,10 @@ Skeleton: It is a predefined class. It will get the method details from soap req
 To develop the webservice we need mainly two components. 1. WSDL generation tool, 2. Skeleton class. 
 If you develop application using java then sun provides these 2 components, if we use C# Microsoft will provide you the 2 components.
 
+From client side also, the required stub generation tool is provided by sun if we use java and by Microsoft if we use C# for client application.
+Sun has provided 4 java webservice API’s. 1. JAX-RPC (Java API for XML- remote Procedure Call), 2. JAX-M (Java API for Xml Messaging), 3. JAX-WS (Java API for XML -Web Services), 4. JAX-RS (Java API for Restful webservices). These API’s should contain WSDL generation tool, skeleton, stub generation tool. 
+
+
 
 
 
