@@ -95,6 +95,9 @@ Sun has provided 4 java webservice API’s. 1. JAX-RPC (Java API for XML- remote P
 We can develop synchronous (remaining 3) and asynchronous (JAX-M) webservices using this 4 java API’s.
 Whenever client makes a request to webservice and webservice provides immediate response to the client then it is called synchronous web service.
 Synchronous web services are divided into 2 types. 1. SOAP (we use JAX-RPC and JAX-WS), 2. Restful webservice (JAX-RS).
+All this 4 API’s are specifications i.e. an API that contains only interfaces and abstract classes. They are not providing any implementation classes here.
+We cannot use this API’s directly in our service side or client side to develop the webservices because they are the specifications. So instead of specifications we use implementations here
+
 
 
 

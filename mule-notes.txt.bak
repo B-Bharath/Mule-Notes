@@ -92,6 +92,9 @@ If you develop application using java then sun provides these 2 components, if w
 From client side also, the required stub generation tool is provided by sun if we use java and by Microsoft if we use C# for client application.
 Sun has provided 4 java webservice API’s. 1. JAX-RPC (Java API for XML- remote Procedure Call), 2. JAX-M (Java API for Xml Messaging), 3. JAX-WS (Java API for XML -Web Services), 4. JAX-RS (Java API for Restful webservices). These API’s should contain WSDL generation tool, skeleton, stub generation tool. 
 
+We can develop synchronous (remaining 3) and asynchronous (JAX-M) webservices using this 4 java API’s.
+Whenever client makes a request to webservice and webservice provides immediate response to the client then it is called synchronous web service.
+Synchronous web services are divided into 2 types. 1. SOAP (we use JAX-RPC and JAX-WS), 2. Restful webservice (JAX-RS).
 
 
 
