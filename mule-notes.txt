@@ -98,6 +98,28 @@ Synchronous web services are divided into 2 types. 1. SOAP (we use JAX-RPC and J
 All this 4 API’s are specifications i.e. an API that contains only interfaces and abstract classes. They are not providing any implementation classes here.
 We cannot use this API’s directly in our service side or client side to develop the webservices because they are the specifications. So instead of specifications we use implementations here
 
+RTF: Runtime Fabrics (docker+kubernetes): MuleSoft’s flexible deployment target that lets you run APIs 𝗼𝗻 𝗮𝗻𝘆 𝗰𝗹𝗼𝘂𝗱 𝗼𝗿 𝗱𝗮𝘁𝗮 𝗰𝗲𝗻𝘁𝗲𝗿 with full control.
+	 It is a container service that allows for automated deployments and management in the cloud. Runs on your infrastructure but connects on-prem to cloud. It helps in getting some great features like speed of the cloud with on-premise deployment
+	It contains controllers(connecting external world to the application and will use internal load balancer to route to workers) and workers (it will run applications). Default prod env is 3 controller and 3 worker servers
+	RTF Capabilities:
+	· Application isolation (it will not affect other application running in same server)
+	· Capability to run multiple versions of the Mule runtime on the same set of resources 
+	· Easily scale applications 
+	· Automated application fail-over (keep replicas)
+Out of the box management portal with Anypoint Runtime Manager 
+ 𝗪𝗵𝘆 𝗥𝗧𝗙?
+✅ Run APIs in your own cloud (AWS, Azure, GCP, or on-prem)
+✅ Maintain 𝘀𝗲𝗰𝘂𝗿𝗶𝘁𝘆 & 𝗰𝗼𝗺𝗽𝗹𝗶𝗮𝗻𝗰𝗲 while scaling easily
+✅ Decouple 𝗮𝗽𝗽 𝗵𝗼𝘀𝘁𝗶𝗻𝗴 from 𝗔𝗻𝘆𝗽𝗼𝗶𝗻𝘁 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝗣𝗹𝗮𝗻𝗲
+✅ Bring 𝗞𝘂𝗯𝗲𝗿𝗻𝗲𝘁𝗲𝘀-𝗹𝗲𝘃𝗲𝗹 𝗼𝗿𝗰𝗵𝗲𝘀𝘁𝗿𝗮𝘁𝗶𝗼𝗻 to MuleSoft
+
+🛡️ 𝗞𝗲𝘆 𝗕𝗲𝘀𝘁 𝗣𝗿𝗮𝗰𝘁𝗶𝗰𝗲𝘀:
+🔐 Use 𝗱𝗲𝗱𝗶𝗰𝗮𝘁𝗲𝗱 𝗹𝗼𝗮𝗱 𝗯𝗮𝗹𝗮𝗻𝗰𝗲𝗿𝘀 for isolation
+📈 Enable 𝗵𝗼𝗿𝗶𝘇𝗼𝗻𝘁𝗮𝗹 𝘀𝗰𝗮𝗹𝗶𝗻𝗴 for performance
+🔒 Configure 𝗧𝗟𝗦 + 𝗠𝘂𝘁𝘂𝗮𝗹 𝗔𝘂𝘁𝗵 on Ingress
+📊 Monitor via 𝗔𝗻𝘆𝗽𝗼𝗶𝗻𝘁 𝗠𝗼𝗻𝗶𝘁𝗼𝗿𝗶𝗻𝗴 + 𝗖𝗹𝗼𝘂𝗱𝗪𝗮𝘁𝗰𝗵
+🧪 Use 𝘀𝗮𝗻𝗱𝗯𝗼𝘅 𝗳𝗮𝗯𝗿𝗶𝗰 for safe testing
+
 IAM:
 Identity and Access Management (IAM) makes sure the right people get access to the right resources at the right time, using things like passwords or other checks to confirm who they are, and setting rules about what they’re allowed to do.
 
