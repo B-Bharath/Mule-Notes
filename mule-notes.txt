@@ -139,3 +139,7 @@ How It Works:
 • Redirection back to the SP: The browser is redirected back to Anypoint Platform, carrying the SAML assertion.
 • Anypoint Platform verifies: Anypoint Platform receives the assertion, validates its digital signature using a public key shared by the IdP, and extracts the user information. It doesn't need to know the user's password; it just trusts that the IdP has already verified them.
 • Authorization and Login: Based on the user's email and groups from the assertion, Anypoint Platform maps them to a specific user and grants them access with the appropriate permissions (e.g., "Anypoint Platform Administrator" or "API Developer").
+
+What’s the difference between SAML, OAuth2, and OIDC in IAM?
+“SAML is XML-based, mainly for web SSO. OAuth2 is for delegated authorization using tokens. OIDC extends OAuth2 to add identity — so you know who the user is, not just that they’re authorized.”
+
