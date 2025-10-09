@@ -148,3 +148,7 @@ OAuth2 in Simple Terms
 	• Instead of giving your password to every app, you issue access tokens.
 	• MuleSoft APIs use these tokens to decide if the request is allowed.
 	• Scopes = permissions attached to a token. They define what actions the token holder can perform.
+
+MuleSoft Policies:
+• Rate Limiting / Throttling → protect APIs from overload.
+
