@@ -143,3 +143,8 @@ How It Works:
 What’s the difference between SAML, OAuth2, and OIDC in IAM?
 “SAML is XML-based, mainly for web SSO. OAuth2 is for delegated authorization using tokens. OIDC extends OAuth2 to add identity — so you know who the user is, not just that they’re authorized.”
 
+OAuth2 in Simple Terms
+	• OAuth2 is an authorization framework — it controls what an application (or user) can do without sharing passwords.
+	• Instead of giving your password to every app, you issue access tokens.
+	• MuleSoft APIs use these tokens to decide if the request is allowed.
+	• Scopes = permissions attached to a token. They define what actions the token holder can perform.
