@@ -152,4 +152,5 @@ OAuth2 in Simple Terms
 MuleSoft Policies:
 • Rate Limiting / Throttling → protect APIs from overload.
 • Spike Control → handle sudden bursts of traffic.
+• IP Whitelisting → restrict to trusted networks.
 
