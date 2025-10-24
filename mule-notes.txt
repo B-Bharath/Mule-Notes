@@ -154,4 +154,5 @@ MuleSoft Policies:
 • Spike Control → handle sudden bursts of traffic.
 • IP Whitelisting → restrict to trusted networks.
 • Message Logging → log request/response details.
+• CORS policy → control cross-origin calls.
 
