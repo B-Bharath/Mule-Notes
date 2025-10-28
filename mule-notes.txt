@@ -156,3 +156,6 @@ MuleSoft Policies:
 • Message Logging → log request/response details.
 • CORS policy → control cross-origin calls.
 
+Cloudhub 1.0 vs 2.0:
+1. In CloudHub 1.0, resources were based on vCores. In 2.0, they’re based on CPU + memory
+
