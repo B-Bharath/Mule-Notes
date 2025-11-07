@@ -159,4 +159,5 @@ MuleSoft Policies:
 Cloudhub 1.0 vs 2.0:
 1. In CloudHub 1.0, resources were based on vCores. In 2.0, they’re based on CPU + memory
 2. In CloudHub 1.0, IPs were dynamic by default, and static IPs required a DLB.
+3. In CloudHub 1.0, worker restarts could take minutes. In CH2.0, pods restart in seconds, and replicas in other AZs keep traffic flowing.
 
