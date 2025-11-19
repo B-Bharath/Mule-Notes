@@ -163,3 +163,10 @@ Cloudhub 1.0 vs 2.0:
 4. CH2.0 uses Private Spaces, static IPs, and firewall rules need to be reviewed.
 5. Logging and monitoring are enhanced through Anypoint Monitoring.
 
+Flex Gateway:
+• A high-performance, lightweight API gateway from MuleSoft.
+• Designed to run anywhere → Kubernetes, Docker, VMs, cloud, or on-prem.
+• Part of the Anypoint API Management ecosystem.
+• Built for modern microservices architectures and non-Mule APIs.
+
+
