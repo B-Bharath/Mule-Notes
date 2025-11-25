@@ -168,5 +168,7 @@ Flex Gateway:
 • Designed to run anywhere → Kubernetes, Docker, VMs, cloud, or on-prem.
 • Part of the Anypoint API Management ecosystem.
 • Built for modern microservices architectures and non-Mule APIs.
+Why it Exists:
+• Traditional Mule Gateway (embedded in Mule runtimes) works best for APIs built with MuleSoft’s runtime.
 
 
