@@ -170,5 +170,5 @@ Flex Gateway:
 • Built for modern microservices architectures and non-Mule APIs.
 Why it Exists:
 • Traditional Mule Gateway (embedded in Mule runtimes) works best for APIs built with MuleSoft’s runtime.
-
+• Flex Gateway supports polyglot environments → Node.js, Go, Java Spring Boot, .NET, Python, etc.
 
