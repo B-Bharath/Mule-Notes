@@ -172,4 +172,7 @@ Why it Exists:
 • Traditional Mule Gateway (embedded in Mule runtimes) works best for APIs built with MuleSoft’s runtime.
 • Flex Gateway supports polyglot environments → Node.js, Go, Java Spring Boot, .NET, Python, etc.
 • Aimed at teams that want MuleSoft API governance without running Mule runtimes.
+Advantages:
+• Ultra-fast (built using NGINX-based architecture).
+• Deploy anywhere → Kubernetes-native, container-friendly.
 
