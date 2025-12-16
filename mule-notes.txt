@@ -177,4 +177,7 @@ Advantages:
 • Deploy anywhere → Kubernetes-native, container-friendly.
 • Manages any API (Mule or non-Mule).
 • Central management via Anypoint Platform (policies, analytics, governance).
+•	Low resource overhead.	
+•	Decoupled from Mule runtime → no need for Mule apps.
+
 
