@@ -179,5 +179,15 @@ Advantages:
 • Central management via Anypoint Platform (policies, analytics, governance).
 •	Low resource overhead.	
 •	Decoupled from Mule runtime → no need for Mule apps.
-
+Example:
+Scenario: You have a Node.js microservice running in Kubernetes.
+With Flex Gateway:
+	1. Deploy Flex Gateway as a sidecar or ingress controller in the Kubernetes cluster.
+	2. Register gateway with Anypoint Platform.
+	3. Point the route from Flex Gateway → your Node.js service.
+	4. Apply policies (e.g., rate limiting, OAuth 2.0).
+You now manage a Node.js API fully from Anypoint Platform.
+With Mule Gateway:
+	• You would need to wrap or proxy this Node.js API through a Mule application.
+More overhead and less natural for microservice architectures.
 
