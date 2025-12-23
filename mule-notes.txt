@@ -189,5 +189,5 @@ With Flex Gateway:
 You now manage a Node.js API fully from Anypoint Platform.
 With Mule Gateway:
 	• You would need to wrap or proxy this Node.js API through a Mule application.
-More overhead and less natural for microservice architectures.
+    • More overhead and less natural for microservice architectures.
 
